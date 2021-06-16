@@ -1,0 +1,25 @@
+.panel_main_div{min-width: 520px;display: inline-block;}
+.editor_main_div{min-width: 400px;display: inline-block;overflow-y: hidden;}
+.canvas {max-width: 500px;width: 100%;background: #fff;border-radius: 6px;}
+.canvas_header {text-align: left;padding-bottom: 0px;color: orange;font-weight: 700;border-bottom: 1px solid darkgrey;position: relative;}
+.header_label{width: max-content;border-bottom: 6px solid orange;padding: 4px 20px;margin-bottom: -1px;font-size: 19px;}
+.canvas_body {min-height: 350px;display: flex;}
+.editor_body{min-height: 342px;display: inline-block;text-align: left;color: #7d7777;font-size: 15px;}
+.canvas_panel_left{flex: 12 1;border-right: 1px solid grey;border-radius: 10px;margin-top: 10px;margin-bottom: 10px;}
+.canvas_panel_right{flex: 1;position: relative;}
+.left_inner{width: 96%;height: 90%;background-color: #718399;margin-top: 10px;margin-left: 2%;border-radius: 10px;overflow-y: auto;}
+.inner_rotate_label{transform: translateX(-21%) translateY(550%) rotate(90deg);color: grey;letter-spacing: 1px;}
+.right_bottom_button{position: absolute;bottom: 20px;left: 10px;border: 0;color: orange;font-size: 21px;border-radius: 50%;background: #f7eccf;cursor: pointer;}
+.drag_holder{justify-content:center;height: "100vh";margin-top:50;}
+.drag_inner_div{align-items: center;vertical-align: top;float : left;width: 100%;}
+.inner_column_name{font-size: 17px;margin-bottom: -35px;padding-left: 14px;color: #fff;text-decoration: underline;padding-top : 10px;}
+.panel_holder{padding: 4px;padding-top:50px;}
+.inner_panels{position:relative;user-select: none;    color: #000;background-color: #fff;margin-bottom: 10px;font-weight: 500;}
+.field_name{width:50%;display: inline-block;text-align: left;vertical-align: top;padding-top: 4px;}
+.field_offset{width:20%;display: inline-block;text-align: left;vertical-align: top;padding-top: 4px;}
+.drag_icon{width:10%;display: inline-block;text-align: left;}
+.close_icon{width:20%;display: inline-block;text-align: right;}
+.pre_class{max-height: 250px;overflow-y: scroll;}
+.editor_cross{float: right;position: absolute;top: 0;right: 15px;color: #000;font-weight: normal;cursor: pointer;}
+.right_bar{position: absolute;top: 0;right: 0;background: #fff;height: 100vh;padding-left: 15px;padding-right: 15px;}    
+.right_section_btn{transform: translateX(-36%) translateY(100%) rotate( -90deg );border: 0;background: transparent;font-size: 18px;color: orange;font-weight: bold;cursor: pointer;}
